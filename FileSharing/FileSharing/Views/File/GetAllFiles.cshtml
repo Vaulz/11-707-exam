@@ -1,15 +1,8 @@
-﻿
-@{
-    Layout = null;
+﻿@model List<FileModel>
+@foreach (var p in Model)
+{
+<div>
+    <h4>@p.ShortDescription</h4>
+    <h4>@p.ShortURL</h4>
+</div>
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>GetAllFiles</title>
-</head>
-<body>
-</body>
-</html>

@@ -12956,11 +12956,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITIS\\Programms\\FileSharing\\FileSharing\\FileSharing.csproj",
+      "projectUniqueName": "C:\\Users\\Anton\\Desktop\\11-707-exam\\FileSharing\\FileSharing\\FileSharing.csproj",
       "projectName": "FileSharing",
-      "projectPath": "D:\\ITIS\\Programms\\FileSharing\\FileSharing\\FileSharing.csproj",
+      "projectPath": "C:\\Users\\Anton\\Desktop\\11-707-exam\\FileSharing\\FileSharing\\FileSharing.csproj",
       "packagesPath": "C:\\Users\\Anton\\.nuget\\packages\\",
-      "outputPath": "D:\\ITIS\\Programms\\FileSharing\\FileSharing\\obj\\",
+      "outputPath": "C:\\Users\\Anton\\Desktop\\11-707-exam\\FileSharing\\FileSharing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
