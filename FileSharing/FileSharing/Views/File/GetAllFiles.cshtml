@@ -3,6 +3,10 @@
 {
 <div>
     <h4>@p.ShortDescription</h4>
-    <h4>@p.ShortURL</h4>
-</div>
+    <p>
+        <button type="button" class="bubbly-button" onclick="location.href = '@Url.Action("GetFileProfile", "File", new {url = p.ShortURL}, null)'">
+            <h4>Profile</h4>
+        </button>
+    </p>
+    </div>
 }

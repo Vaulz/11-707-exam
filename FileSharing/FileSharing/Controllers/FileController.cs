@@ -67,10 +67,11 @@ namespace FileSharing.Controllers
         }
 
        
-        public ActionResult GetFileProfile(int id)
+        public ActionResult GetFileProfile(string url)
         {
-            var file= _appContext.Files.FirstOrDefault(x => x.Id == id);
+            var file = _appContext.Files.FirstOrDefault(x => x.ShortURL == url);
             return View(file);
         }
+
     }
 }
